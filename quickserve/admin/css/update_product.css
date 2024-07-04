@@ -1,0 +1,94 @@
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+/* update product */
+.update form {
+  max-width: 50rem;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(246, 246, 246);
+  border-radius: 0.5rem;
+}
+
+.update form img {
+  height: 20rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.update form .input {
+  width: 80%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 0.9rem;
+  background-color: rgb(244, 244, 244);
+  padding: 1.2rem 1.4rem;
+  font-size: 1.8rem;
+  color: black;
+  margin: 1rem 0;
+}
+
+.opbtn {
+  background-color: orange;
+  width: auto;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.up_btn {
+  background-color: greenyellow;
+  width: auto;
+  height: 40px;
+  padding: 10px;
+  margin: 20px;
+  color: rgb(2, 2, 2);
+  font-size: 18px;
+  border: 2px solid black;
+}
+.message {
+  position: sticky;
+  top: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  z-index: 10000;
+}
+
+.message span {
+  font-size: 2rem;
+  color: black;
+}
+
+.message i {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: red;
+}
+
+.message i:hover {
+  color: blue;
+}
+
+.empty {
+  padding: 1.5rem;
+  background: white;
+  color: red;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}

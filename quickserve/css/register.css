@@ -1,0 +1,109 @@
+/* CSS for form container */
+body {
+  background-color: yellowgreen;
+  background-image: url("../image/register_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+/* register form */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.form-container h3 {
+  margin-bottom: 20px;
+}
+
+.form-container table {
+  width: 100%;
+}
+
+.form-container td {
+  padding: 10px 0;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="file"],
+.form-container input[type="submit"] {
+  width: calc(100% - 40px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* CSS for error messages */
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* CSS for messages */
+.message {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.message span {
+  margin-right: 5px;
+}
+
+.message i {
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .form-container {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .form-container label {
+    font-size: 16px;
+  }
+}

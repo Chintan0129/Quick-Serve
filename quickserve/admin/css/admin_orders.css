@@ -1,0 +1,64 @@
+/* Styling for the placed orders table */
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: black;
+  font-size: 3.5rem;
+}
+.orders h3 {
+  text-align: center;
+  font-size: 25px;
+}
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Styling for table cells */
+td {
+  word-wrap: break-word;
+}
+
+/* Styling for dropdown */
+select {
+  padding: 6px;
+}
+
+/* Styling for buttons */
+.opt-btn,
+.del-btn {
+  padding: 6px 6px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: yellowgreen;
+}
+
+/* Styling for delete button */
+.del-btn {
+  color: red;
+}
+/* Styling for empty table message */
+.empty {
+  text-align: center;
+  font-style: italic;
+}

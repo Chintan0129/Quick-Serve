@@ -1,0 +1,193 @@
+/* view product */
+.view-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .product-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card .product-details .product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card .product-details .product-description {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.product-card .product-details .product-price {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.product-card form {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+}
+.product-card form .qty {
+  display: block;
+  width: 80px;
+  margin-right: 10px;
+  height: 40px;
+  text-align: center;
+}
+
+.product-card form .btn {
+  display: block;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-card form .btn:hover {
+  background-color: #0056b3;
+}
+/* view product */
+.view-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .product-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card .product-details .product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card .product-details .product-description {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.product-card .product-details .product-price {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.product-card form {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+}
+.product-card form .qty {
+  display: block;
+  width: 80px;
+  margin-right: 10px;
+  height: 40px;
+  text-align: center;
+}
+
+.product-card form .btn {
+  display: block;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-card form .btn:hover {
+  background-color: #0056b3;
+}
+.comment-section {
+  margin-top: 20px;
+}
+h2 {
+  font-size: 25px;
+}
+.comment {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.comment p {
+  margin: 0;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.comment-form button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #0056b3;
+}

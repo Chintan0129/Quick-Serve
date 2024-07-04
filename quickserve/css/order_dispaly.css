@@ -1,0 +1,41 @@
+/* css for order display */
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 20px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+/* CSS for empty message */
+.empty {
+  text-align: center;
+  padding: 20px;
+}
+
+/* CSS for payment status */
+td.payment-status {
+  font-weight: bold;
+}
+
+td.payment-status.pending {
+  color: red;
+}
+
+td.payment-status.complete {
+  color: green;
+}

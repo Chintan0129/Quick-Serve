@@ -1,0 +1,76 @@
+/* update profile page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h1.title {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+}
+
+table td input[type="text"],
+table td input[type="email"],
+table td input[type="password"],
+table td input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+table td input[type="submit"],
+table td a.option-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table td input[type="submit"]:hover,
+table td a.option-btn:hover {
+  background-color: #555;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}

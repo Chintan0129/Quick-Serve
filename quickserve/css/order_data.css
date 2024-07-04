@@ -1,0 +1,50 @@
+/* order details */
+.order__details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+}
+.order__details table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.order__details table tr:last-child {
+  border-bottom: none;
+}
+
+.order__details table td {
+  padding: 10px;
+  vertical-align: top;
+  font-size: 15px;
+}
+
+.order__details table input[type="text"],
+.order__details table input[type="number"],
+.order__details table input[type="email"],
+.order__details table select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.order__details table input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order__details table input[type="submit"]:hover {
+  background-color: #45a049;
+}
